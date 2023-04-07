@@ -1,0 +1,20 @@
+name = "AutomationLabsExportation"
+uuid = "2be4ce25-7785-4970-b867-04d521c5a137"
+authors = ["Pierre BLAUD <pierre.blaud@ikmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+AutomationLabsDepot = "cc8afec4-1da4-4339-ab39-14f2715a249b"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+
+[compat]
+julia = "1"
+AutomationLabsDepot = "0.1"
+PackageCompiler = "2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
