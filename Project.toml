@@ -9,9 +9,10 @@ DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 
 [compat]
-julia = "1"
 AutomationLabsDepot = "0.1"
+DelimitedFiles = "1"
 PackageCompiler = "2"
+julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
